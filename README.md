@@ -1,6 +1,3 @@
-# factorial-calculator
-Demonstration of the use of callables and futures in Java concurrent programming
-
 # Factorial concurrent calculator #
 
 ## About ##
