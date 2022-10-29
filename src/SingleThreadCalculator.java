@@ -4,11 +4,20 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+/**
+ * Sequential calculation of the factorial of a set of numbers using
+ * a single thread
+ *
+ * @author <a href="mailto:everton.cavalcante@ufrn.br">Everton Cavalcante</a>
+ */
 public class SingleThreadCalculator {
-	
-	private static int[] numbers = { 1, 3, 5, 7, 9 };
-
+	/**
+	 * Main method
+	 * @param args Command line arguments
+	 */
 	public static void main(String args[]) {
+		int[] numbers = { 1, 3, 5, 7, 9 };
+
 		ExecutorService executor =
 			Executors.newSingleThreadExecutor();
 		
