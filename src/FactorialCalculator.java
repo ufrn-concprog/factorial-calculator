@@ -1,9 +1,9 @@
 import java.util.concurrent.Callable;
 
 /**
- * Calculator of the factorial of a number.<br>
- * This calculator is implemented as a <code>Callable</code> object
- * to run upon a thread able to return the calculated factorial.
+ * Calculator of the factorial of a number, implemented as a
+ * <code>Callable</code> object to run upon a thread able to
+ * return the calculated factorial
  * @see java.util.concurrent.Callable
  *
  * @author <a href="mailto:everton.cavalcante@ufrn.br">Everton Cavalcante</a>
